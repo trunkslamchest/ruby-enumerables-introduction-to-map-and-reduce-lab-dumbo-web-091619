@@ -34,8 +34,8 @@ end
 # reduce_to_total([1,2,3])
 # reduce_to_total([1,2,3], 100)
 
-# def reduce_to_all_true()
-#   new_arr
-# end
+def reduce_to_all_true()
+  new_arr
+end
 
-# reduce_to_all_true([1, 2, true, "razmatazz"])
+reduce_to_all_true([1, 2, true, "razmatazz"])
