@@ -42,7 +42,7 @@ end
 # reduce_to_all_true([1, 2, true, "razmatazz"])
 
 def reduce_to_any_true (array)
-  val = array.reduce() { |e| }
+  val = array.reduce() { |e| array.include?(true) ? e = true }
 end
 
 reduce_to_any_true([false, nil, nil, nil, true])
