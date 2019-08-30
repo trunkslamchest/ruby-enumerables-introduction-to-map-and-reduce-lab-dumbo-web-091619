@@ -27,7 +27,7 @@ end
 # map_to_square([1, 2, 3, -9])
 
 def reduce_to_total(array, start = 0)
-  new_arr = array.reduce(start) { |s, n|  }  
+  new_arr = array.reduce(start) { |s, n| s + n }  
   p new_arr
 end
 
