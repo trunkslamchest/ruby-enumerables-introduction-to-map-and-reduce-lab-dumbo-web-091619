@@ -20,4 +20,4 @@ def map_to_double(array)
 end
 
 
-map_to_double([1, 2, 3, -9])
+# map_to_double([1, 2, 3, -9])
