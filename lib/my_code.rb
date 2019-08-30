@@ -8,5 +8,8 @@ end
 # map_to_negativize([1, 2, 3, -9])
 
 def map_to_no_change(array)
+  new_arr = array.map { |e| e }
+  p new_arr
+end
 
-map_to_no_change(dune)
+map_to_no_change(["paul", "gurney", "vladimir", "jessica", "chani"])
