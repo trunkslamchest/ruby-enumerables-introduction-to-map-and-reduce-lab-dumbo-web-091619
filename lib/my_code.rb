@@ -35,7 +35,8 @@ end
 # reduce_to_total([1,2,3], 100)
 
 def reduce_to_all_true(array)
-  val = 
+  val = array.reduce(true)
+  p val
 end
 
 reduce_to_all_true([1, 2, true, "razmatazz"])
