@@ -20,3 +20,10 @@ def map_to_double(array)
 end
 
 # map_to_double([1, 2, 3, -9])
+
+def map_to_square(array)
+  new_arr = array.map { |e| e * e }
+  p new_arr
+end
+
+map_to_square([1, 2, 3, -9])
