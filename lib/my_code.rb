@@ -26,4 +26,7 @@ end
 
 # map_to_square([1, 2, 3, -9])
 
+def reduce_to_total(array, start = array[0])
+ p start
+end
 reduce_to_total([1,2,3], 100)
