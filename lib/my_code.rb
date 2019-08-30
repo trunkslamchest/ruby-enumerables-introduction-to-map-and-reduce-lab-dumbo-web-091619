@@ -39,4 +39,5 @@ def reduce_to_all_true(array)
   p val
 end
 
-reduce_to_all_true([1, 2, true, "razmatazz"])
+# reduce_to_all_true([1, 2, true, "razmatazz"])
+
