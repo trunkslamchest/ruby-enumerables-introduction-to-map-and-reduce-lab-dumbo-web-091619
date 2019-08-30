@@ -35,7 +35,7 @@ end
 # reduce_to_total([1,2,3], 100)
 
 def reduce_to_all_true(array)
-  val = array.reduce(true)
+  val = array.reduce() { |e| e = true }
   p val
 end
 
