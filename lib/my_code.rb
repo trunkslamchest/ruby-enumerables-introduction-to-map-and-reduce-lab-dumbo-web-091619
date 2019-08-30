@@ -43,6 +43,7 @@ end
 
 def reduce_to_any_true (array)
   val = array.reduce() { |e| array.include?(true) ? e = true : e = false }
+  p val
 end
 
 reduce_to_any_true([false, nil, nil, nil, true])
