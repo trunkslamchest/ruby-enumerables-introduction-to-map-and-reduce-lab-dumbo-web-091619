@@ -19,5 +19,4 @@ def map_to_double(array)
   p new_arr
 end
 
-
 # map_to_double([1, 2, 3, -9])
