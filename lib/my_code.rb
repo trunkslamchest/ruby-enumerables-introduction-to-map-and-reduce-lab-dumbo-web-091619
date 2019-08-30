@@ -29,4 +29,6 @@ end
 def reduce_to_total(array, start = array[0])
  p start
 end
-reduce_to_total([1,2,3], 100)
+
+reduce_to_total([1,2,3])
+# reduce_to_total([1,2,3], 100)
