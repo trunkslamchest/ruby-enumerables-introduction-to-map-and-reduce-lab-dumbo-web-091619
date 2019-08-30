@@ -9,6 +9,7 @@ end
 
 def map_to_no_change(array)
   new_arr = array.map { |e| e }
+  p new_arr
 end
 
-map_to_no_change(["paul", "gurney", "vladimir", "jessica", "chani"])
+# map_to_no_change(["paul", "gurney", "vladimir", "jessica", "chani"])
