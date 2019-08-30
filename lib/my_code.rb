@@ -41,3 +41,6 @@ end
 
 # reduce_to_all_true([1, 2, true, "razmatazz"])
 
+def reduce_to_any_true ()
+  
+end
