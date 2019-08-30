@@ -13,3 +13,11 @@ def map_to_no_change(array)
 end
 
 # map_to_no_change(["paul", "gurney", "vladimir", "jessica", "chani"])
+
+def map_to_double(array)
+  new_arr = array.map { |e| e * 2 }
+  p new_arr
+end
+
+
+map_to_double([1, 2, 3, -9])
