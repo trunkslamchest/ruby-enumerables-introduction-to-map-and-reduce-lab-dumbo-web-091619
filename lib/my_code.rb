@@ -31,5 +31,5 @@ def reduce_to_total(array, start = 0)
   p new_arr
 end
 
-reduce_to_total([1,2,3])
-reduce_to_total([1,2,3], 100)
+# reduce_to_total([1,2,3])
+# reduce_to_total([1,2,3], 100)
