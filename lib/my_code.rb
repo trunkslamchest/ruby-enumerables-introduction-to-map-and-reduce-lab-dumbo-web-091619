@@ -33,3 +33,7 @@ end
 
 # reduce_to_total([1,2,3])
 # reduce_to_total([1,2,3], 100)
+
+def reduce_to_all_true()
+  
+end
