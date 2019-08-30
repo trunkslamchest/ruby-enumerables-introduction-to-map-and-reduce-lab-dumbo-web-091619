@@ -27,16 +27,15 @@ end
 # map_to_square([1, 2, 3, -9])
 
 def reduce_to_total(array, start = 0)
-  new_arr = array.reduce(start) { |s, n| s + n }  
-  p new_arr
+  val = array.reduce(start) { |s, n| s + n }  
+  p val
 end
 
 # reduce_to_total([1,2,3])
 # reduce_to_total([1,2,3], 100)
 
-def reduce_to_all_true()
-  
-end
+# def reduce_to_all_true()
+#   new_arr
+# end
 
-reduce_to_all_true(source_array)
-reduce_to_all_true(source_array)
+# reduce_to_all_true([1, 2, true, "razmatazz"])
