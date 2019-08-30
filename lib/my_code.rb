@@ -26,4 +26,4 @@ def map_to_square(array)
   p new_arr
 end
 
-map_to_square([1, 2, 3, -9])
+# map_to_square([1, 2, 3, -9])
