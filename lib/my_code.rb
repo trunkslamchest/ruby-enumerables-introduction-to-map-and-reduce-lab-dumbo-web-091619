@@ -46,4 +46,4 @@ def reduce_to_any_true ()
 end
 
 reduce_to_any_true([false, nil, nil, nil, true])
-reduce_to_any_true(source_array)
+reduce_to_any_true([ false, nil, nil, nil])
